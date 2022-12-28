@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="header">
+        <h1 class="header__h1">Contact Us</h1>
+  
+        <nav class="header__nav">
+          <ul class="header__ul">
+              <li>
+                  <a href="index.html">Home</a>
+                </li>
+            <li>
+              <a href="menu .html">Menu</a>
+            </li>
+            <li>
+              <a href="hours.html"> Hours</a>
+            </li>
+            <li>
+              <a href="about.html">About<abbr title="The Little Taco Shop"> LTS</abbr></a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!-- IMAGES -->
+      <main class="main">
+        <article>
+        <figure>
+          <img src="images/taco contacct.jpg" title="Tacos ready to eat" >
+          <figcaption class="offscreen">Little Taco Shop Tacos</figcaption>
+        </figure>
+      
+    <!--  -->
+    <article class="main__article">
+          <h2>Our location</h2>
+          <address>
+            555 taco tempation lane, suite t <br>
+            kanass city, Mo 555555-555555
+            <br><br>
+            Phone:<a href="tel:+55555555555">555555-555555</a>
+          </address>
+        </article>
+        <article class="main__article contact">
+        <h2 class="contact__h2">Our Contact Form</h2>
+        <form action="https://httpbin.org/get" method="get" class="contact__form">
+          <fieldset class="contact__fieldset">
+            <legend class="offscreen">Send us a message</legend>
+            <p class="contact__p">
+              <label class="contact__label" for=" name">Name</label>
+              <input class="contact__input" type="text"Name="name"id="name"placeholder="Your Name" is required>
+            </p>
+           
+            <p class="contact__p">
+            <label class="contact__label" for="last name">last Name</label>
+            <input class="contact__input" type="text"Name="last name" id="last name" placeholder="Your Last name" is required>
+          </p>
+         
+          <p class="contact__p">
+            <label class="contact__label" for="email">Your Email</label>
+            <input class="contact__input" type="email" email="email" id="email" placeholder="Your email" is required>
+          </p>
+         
+          <p class="contact__p">
+            <label class="contact__label" for="message">Your message</label>
+            <textarea class="contact__textarea" name="message" id="Your message" cols="30" rows="10" placeholder ="write something"></textarea>
+          </p>
+         
+          <p class="contact__p">
+          <label class="contact__label" for="Date of birth">Date of birth</label>
+          <input class="contact__input" type="date" >
+        </p>
+          <p class="contact__">
+            <label class="contact__label" for="age">Age</label>
+            <input class="contact__input" name="Name"age value="50" type="number">
+          </p>
+          </fieldset>
+          <div class="contact-btn">
+            <button  class="contact__button"type="submit">Send</button>
+          <button class="contact__button" type="reset">Reset</button>
+          </div>
+          
+        </form>
+      </article>
+        
+      </main>
+      <footer class="footer">
+        <p>
+       <span class="nowrap">Copyright &copy;</span> 
+       <span class="nowrap">Deo Companies 2022</span>
+      </footer>
+    </p>
+  </body>
+</html>
